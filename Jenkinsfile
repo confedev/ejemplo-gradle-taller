@@ -30,7 +30,7 @@ pipeline {
                         break;
                         case 'Gradle':
                             figlet  "Gradle"
-                            def ejecucion = load 'script.groovy'
+                            def ejecucion = load 'gradle.groovy'
                             ejecucion.call()
                         break;
                     }
